@@ -1,0 +1,205 @@
+*/*
+    D Black : #222831
+    L Blue : #30475e
+    L Gold : #f2a365
+    L Grey : #ececec
+*/
+{
+    font-family: "Comic Sans MS";
+}
+body {
+    margin: 0;
+    padding: 0;
+    perspective: 800px;
+    background-image: url(../Images/Museum/daniel-h-tong-xBeid9r1paU-unsplash.jpg);
+    background-size: cover;
+}
+nav {
+    width: 50%;
+    margin-left: 32%;
+    margin-right: 50%;
+}
+nav ul {
+    list-style: none;
+    background-color: #30475e;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: fixed;
+    z-index: 100
+}
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    margin: 10px 0;
+    position: relative;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ececec;
+    padding: 23px 30px 6px;
+}
+nav ul li a:hover {
+    border-bottom: 5px solid  #f2a365;
+    background-color: #ececec;
+    color: #30475e
+}
+nav ul li .guide {
+    border-bottom: 5px solid #30475e;
+    background-color: #f2a365;
+    color: #ececec;
+    margin: -5px
+}
+nav ul li .guide:hover {
+    border-bottom: 5px solid #30475e;
+    background-color: #f2a365;
+    color: #ececec;
+    margin: -5px
+}
+nav ul li ul {
+    position: absolute;
+    border: 2px solid #f2a365;
+    border-top: 0;
+    border-radius: 0 10px 10px;
+    display: none;
+    padding: 10px;
+    top: 33px
+}
+nav ul li ul li {
+    width: 70px
+}
+nav ul li ul li a {
+    text-decoration: none;
+    color: #ececec;
+    padding: 10px;
+    display: block;
+}
+nav ul li:hover ul {
+    display: block
+}
+nav ul li ul li a:hover {
+    background-color: #222831;
+    border: none;
+}
+.circle {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #f2a365;
+    background-color: #ececec;
+    border-radius: 50%
+}
+.left {
+    position: relative;
+    top: 0;
+    left: 253px;
+    box-shadow: 5px 5px ;
+}
+.right {
+    position: relative;
+    top: -84px;
+    right:  217px;
+    float: right;
+    box-shadow: 5px 5px ;
+}
+.left img {
+    width: 48px;
+    height: 64px;
+    position: relative;
+    right: -15px;
+    top: 5px
+}
+.right img {
+    width: 76px;
+    height: 72px;
+    position: relative;
+    top: -1px;
+    left: 1.7px
+}
+.main {
+    margin: 60px auto;
+    margin-left: 460px;
+    height: 650px;
+    width: 400px;
+    border: 10px solid #f2a365;
+    border-radius: 30px;
+    overflow: hidden;
+    opacity: 40%;
+    z-index: 10
+}
+.heading {
+    height: 80px;
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    background-color: #222831;
+    color: #ececec;
+    border-bottom: 2px solid #30475e;
+}
+.heading h1{
+    opacity: 100%;
+    position: relative;
+    top: -10px;
+    left: -10px
+}
+.content {
+    height: 550px;
+    width: 400px;
+    padding: 20px 40px;
+    background-color: #30475e;
+    color: #ececec;
+}
+.content p{
+    opacity: 300%
+}
+.content .list {
+    position: relative;
+    height: 30px;
+    width: 400px;
+    background-color: #f2a365;
+    top: -41px;
+    left: -40px;
+}
+.content .list section {
+    display: inline-block;
+    color: #30475e;
+    padding: 3px 5px
+}
+.content .list section a {
+    text-decoration: none;
+    color: #30475e;
+    font-size: 14px;
+    font-weight: bold;
+}
+.content .list section:hover {
+    background-color: #30475e;
+}
+.content .list section a:hover {
+    color: #f2a365;
+}
+.Leisure-Tourism {
+    color: #f2a365;
+}
+.content p {
+    color: #ececec;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: -72px;
+    left: -42px
+}
+footer {
+    position: absolute;
+    bottom: -78px;
+    width: 100%;
+    background-color: #f2a365;
+    margin: auto;
+    height: 50px
+}
+footer img {
+    padding: 10px 30px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 480px
+}

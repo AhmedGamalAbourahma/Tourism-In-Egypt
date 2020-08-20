@@ -1,0 +1,251 @@
+/*
+    Red : #bc4f4f
+    Orange : #e98b50
+    Pink : #f3cd97
+    Light Yellow : #fef2a0
+*/
+* {
+    font-family: "Comic Sans MS";
+}
+body {
+    margin: 0;
+    padding: 0;
+    perspective: 800px;
+    background-image: url(../Images/Cities/spencer-davis-UvKCy14AYRY-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed
+}
+nav {
+    width: 50%;
+    margin-left: 32%;
+    margin-right: 50%;
+}
+nav > * {
+    z-index: 1000
+}
+nav ul {
+    list-style: none;
+    background-color: #e98b50;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: fixed;
+}
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    margin: 10px 0;
+    position: relative;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #E4E3E3;
+    padding: 23px 30px 6px;
+}
+nav ul li a:hover {
+    border-bottom: 5px solid #bc4f4f;
+    background-color: #fef2a0;
+    color: #bc4f4f
+}
+nav ul li .cities {
+    border-bottom: 5px solid #fef2a0;
+    background-color: #bc4f4f;
+    color: #fef2a0;
+    margin: -5px
+}
+nav ul li .cities:hover {
+    border-bottom: 5px solid #fef2a0;
+    background-color: #bc4f4f;
+    color: #fef2a0;
+    margin: -5px
+}
+nav ul li ul {
+    position: absolute;
+    padding: 10px;
+    border: 2px solid #bc4f4f;
+    border-top: 0;
+    border-radius: 0 10px 10px;
+    display: none;
+    top: 33px
+}
+nav ul li ul li {
+    width: 70px
+}
+nav ul li ul li a {
+    text-decoration: none;
+    color: #fef2a0;
+    padding: 10px;
+    display: block;
+}
+nav ul li:hover ul {
+    display: block
+}
+nav ul li ul li a:hover {
+    background-color: #bc4f4f;
+    border: none;
+    color: #fef2a0
+}
+.circle {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #bc4f4f;
+    background-color: #fef2a0;
+    border-radius: 50%
+}
+.left {
+    position: relative;
+    top: 0;
+    left: 253px;
+    box-shadow: 5px 5px ;
+}
+.right {
+    position: relative;
+    top: -84px;
+    right:  217px;
+    float: right;
+    box-shadow: 5px 5px ;
+}
+.left img {
+    width: 48px;
+    height: 64px;
+    position: relative;
+    right: -15px;
+    top: 5px
+}
+.right img {
+    width: 76px;
+    height: 72px;
+    position: relative;
+    top: -1px;
+    left: 1.7px
+}
+.minya {
+    background-color: #fef2a0;
+    margin: 40px auto;
+    color: #e98b50;
+    width: 930px;
+    padding: 20px;
+    border-radius:  89px;
+    height: 420px
+}
+.minya h1 {
+    color: #bc4f4f;
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    top: -20px;
+    left: -78px;
+    margin-top: 0;
+    width: 200px;
+    border-bottom: 5px solid #f3cd97;
+    background-color: #f3cd97;
+    border-radius: 40px;
+    padding: 20px;
+    transform: rotateZ(-20deg)
+}
+.minya p {
+    width: 410px;;
+    position: relative;
+    left: 86px;
+    top: -63px
+}
+.minya img {
+    width:  425px;
+    height: 280px;
+    float: right;
+    position: relative;
+    top: -388px;
+    border-radius: 89px
+}
+.tunaelgabal {
+    background-color: #fef2a0;
+    margin: 40px auto;
+    color: #e98b50;
+    width: 830px;
+    padding: 20px;
+    border-radius:  89px;
+    height: 237px
+}
+.tunaelgabal h1 {
+    color: #bc4f4f;
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    top: -20px;
+    left: -78px;
+    margin-top: 0;
+    width: 200px;
+    border-bottom: 5px solid #f3cd97;
+    background-color: #f3cd97;
+    border-radius: 40px;
+    padding: 20px;
+    transform: rotateZ(-20deg)
+}
+.tunaelgabal p {
+    width: 410px;
+    position: relative;
+    left: 86px;
+    top: -55px
+}
+.tunaelgabal img {
+    width:  317px;
+    height: 235px;
+    float: right;
+    position: relative;
+    top: -278px;
+    border-radius: 89px
+}
+.beni {
+    background-color: #fef2a0;
+    margin: 40px auto;
+    color: #e98b50;
+    width: 1000px;
+    padding: 20px;
+    border-radius:  89px;
+    height: 430px
+}
+.beni h1 {
+    color: #bc4f4f;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top: -20px;
+    left: -78px;
+    margin-top: 0;
+    width: 200px;
+    border-bottom: 5px solid #f3cd97;
+    background-color: #f3cd97;
+    border-radius: 40px;
+    padding: 20px;
+    transform: rotateZ(-20deg)
+}
+.beni p {
+    width: 410px;;
+    position: relative;
+    left: 86px;
+    top: -55px
+}
+.beni img {
+    width:  476px;
+    height: 342px;
+    float: right;
+    position: relative;
+    top: -419px;
+    border-radius: 89px
+}
+footer {
+    position: absolute;
+    bottom: -411px;
+    width: 100%;
+    background-color: #fef2a0;
+    margin: auto;
+    height: 50px
+}
+footer img {
+    color: #ca3e47;
+    padding: 10px 30px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 480px
+}

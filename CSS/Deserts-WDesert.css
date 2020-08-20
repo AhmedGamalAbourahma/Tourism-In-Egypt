@@ -1,0 +1,152 @@
+/*
+    White : #fffde1
+    Light Yellow : #fef778
+    Yellow : #fba746
+    Dark Blue : #7f7f7f
+*/
+* {
+    font-family: "Comic Sans MS";
+}
+body {
+    margin: 0;
+    padding: 0;
+    perspective: 800px;
+    background-image: url(../Images/Pyramids/mo-gabrail-iuC3w8mLDcs-unsplash1.jpg);
+    background-clip: border-box;
+    background-size: cover;
+    background-attachment: fixed
+}
+nav {
+    width: 50%;
+    margin-left: 32%;
+    margin-right: 50%;
+}
+nav ul {
+    list-style: none;
+    background-color: #fef778;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: fixed;
+    z-index: 100
+}
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    margin: 10px 0;
+    position: relative;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #7f7f7f;
+    padding: 23px 30px 6px;
+}
+nav ul li a:hover {
+    border-bottom: 5px solid #fba746;
+    background-color: #7f7f7f;
+    color: #fef778
+}
+nav ul li .deserts {
+    border-bottom: 5px solid #7f7f7f;
+    background-color: #fba746;
+    color: #fffde1;
+    margin: -5px
+}
+nav ul li .deserts:hover {
+    border-bottom: 5px solid #7f7f7f;
+    background-color: #fba746;
+    color: #fffde1;
+    margin: -5px
+}
+nav ul li ul {
+    position: absolute;
+    border: 2px solid #fba746;
+    border-top: 0;
+    border-radius: 0 10px 10px;
+    display: none;
+    padding: 10px;
+    top: 33px
+}
+nav ul li ul li {
+    width: 70px
+}
+nav ul li ul li a {
+    text-decoration: none;
+    color: #7f7f7f;
+    padding: 10px;
+    display: block;
+}
+nav ul li:hover ul {
+    display: block
+}
+nav ul li ul li a:hover {
+    background-color: #fba746;
+    color: #fffde1;
+    border: none;
+}
+.circle {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #fba746;
+    background-color: #fef778;
+    border-radius: 50%
+}
+.left {
+    position: relative;
+    top: 0;
+    left: 253px;
+    box-shadow: 5px 5px ;
+}
+.right {
+    position: relative;
+    top: -84px;
+    right:  217px;
+    float: right;
+    box-shadow: 5px 5px ;
+}
+.left img {
+    width: 48px;
+    height: 64px;
+    position: relative;
+    right: -15px;
+    top: 5px
+}
+.right img {
+    width: 76px;
+    height: 72px;
+    position: relative;
+    top: -1px;
+    left: 1.7px
+}
+.papyrus {
+    position: relative;
+    left: 489px;
+    top: -250px;
+    width: 349px;
+    height: 342px;
+    z-index: 1
+}
+div p {
+    width:  262px;
+    height: 322px;
+    position: relative;
+    left: 534px;
+    top: 147px;
+    z-index: 2;
+    color: #7f7f7f
+}
+footer {
+    position: absolute;
+    bottom: -374px;
+    width: 100%;
+    background-color: #fba746;
+    margin: auto;
+    height: 50px
+}
+footer img {
+    padding: 10px 30px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 480px
+}

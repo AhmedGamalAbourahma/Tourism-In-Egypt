@@ -1,0 +1,216 @@
+/*
+    L Grey : #525252
+    Grey : #414141
+    D Grey : #313131
+    Awesome Red : #ca3e47
+*/
+* {
+    font-family: "Comic Sans MS";
+}
+body {
+    margin: 0;
+    padding: 0;
+    perspective: 800px;
+    background-image: url(Images/Cities/omar-elsharawy-pwMbtwA9LRc-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed
+}
+nav {
+    width: 50%;
+    margin-left: 32%;
+    margin-right: 50%;
+}
+nav > * {
+     z-index: 100
+}
+nav ul {
+    list-style: none;
+    background-color: #313131;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: fixed;
+}
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    margin: 10px 0;
+    position: relative;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #E4E3E3;
+    padding: 23px 30px 6px;
+}
+nav ul li a:hover {
+    border-bottom: 5px solid #ca3e47;
+    background-color: #525252;
+}
+nav ul li .home {
+    border-bottom: 5px solid #414141;
+    background-color: #ca3e47;
+    margin: -5px
+}
+nav ul li .home:hover {
+    border-bottom: 5px solid #414141;
+    background-color: #ca3e47;
+    margin: -5px
+}
+nav ul li ul {
+    position: absolute;
+    border: 2px solid #525252;
+    border-top: 0;
+    border-radius: 0 10px 10px;
+    display: none;
+    padding: 10px;
+    top: 33px
+}
+nav ul li ul li {
+    width: 70px
+}
+nav ul li ul li a {
+    text-decoration: none;
+    color: #E4E3E3;
+    padding: 10px;
+    display: block;
+}
+nav ul li:hover ul {
+    display: block
+}
+nav ul li ul li a:hover {
+    background-color: #525252;
+    border: none;
+}
+.circle {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #ca3e47;
+    background-color: #414141;
+    border-radius: 50%
+}
+.left {
+    position: relative;
+    top: 0;
+    left: 253px;
+    box-shadow: 5px 5px ;
+}
+.right {
+    position: relative;
+    top: -84px;
+    right:  217px;
+    float: right;
+    box-shadow: 5px 5px ;
+}
+.left img {
+    width: 48px;
+    height: 64px;
+    position: relative;
+    right: -15px;
+    top: 5px
+}
+.right img {
+    width: 76px;
+    height: 72px;
+    position: relative;
+    top: -1px;
+    left: 1.7px
+}
+.intro-box {
+    width: 456px;
+    height: 607.5px;
+    margin: 50px auto;
+    padding: 20px 80px;
+    text-align: center;
+    color: white;
+    font-weight: 700
+}
+.intro-box img {
+    filter: brightness(25%);
+    width: 456px;
+    height: 607.5px;
+}
+.intro-box .child1 {
+    font-size: 27px;
+    margin: 177px auto;
+    position: relative;
+    top: -580px;
+    padding: 10px 40px;
+    background-color: black;
+    animation: boards1 25s ease-in-out
+}
+.intro-box .child2 {
+    font-size: 25px;
+    position: relative;
+    top: -920px;
+    padding: 10px 40px;
+    background-color: black;
+    animation: boards2 25s ease-in-out
+}
+.intro-box .child3 {
+    font-size: 25px;
+    padding: 10px 40px;
+    background-color: black;
+    position: relative;
+    top: -1083px;
+    animation: boards3 25s ease-in-out
+}
+.intro-box .child4 {
+    font-size: 50px;
+    padding: 0px 40px;
+    top: -1252px;
+    position: relative;
+    background-color: black;
+    animation: boards4 25s ease-in-out
+}
+@keyframes boards1
+{
+    0%{opacity: 0%}
+    21%{opacity: 0%}
+    25%{opacity: 100%}
+    50%{opacity: 0%}
+    75%{opacity: 0%}
+    100%{opacity: 0%}
+}
+@keyframes boards2
+{
+    0%{opacity: 0%}
+    25%{opacity: 0%}
+    46%{opacity: 0%}
+    50%{opacity: 100%}
+    75%{opacity: 0%}
+    100%{opacity: 0%}
+}
+@keyframes boards3
+{
+    0%{opacity: 0%}
+    25%{opacity: 0%}
+    50%{opacity: 0%}
+    71%{opacity: 0%}
+    75%{opacity: 100%}
+    100%{opacity: 0%}
+}
+@keyframes boards4
+{
+    0%{opacity: 0%}
+    25%{opacity: 0%}
+    50%{opacity: 0%}
+    75%{opacity: 0%}
+    96%{opacity: 0%}
+    100%{opacity: 100%}
+}
+footer {
+    position: absolute;
+    bottom: -51px;
+    width: 100%;
+    background-color: #ca3e47;
+    margin: auto;
+    height: 50px
+}
+footer img {
+    color: #ca3e47;
+    padding: 10px 30px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 480px
+}

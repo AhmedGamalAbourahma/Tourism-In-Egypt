@@ -1,0 +1,264 @@
+/*
+    White : #fffde1
+    Light Yellow : #fef778
+    Yellow : #fba746
+    Dark Blue : #7f7f7f
+*/
+* {
+    font-family: "Comic Sans MS";
+}
+body {
+    margin: 0;
+    padding: 0;
+    perspective: 800px;
+    background-image: url(../Images/Pyramids/mo-gabrail-iuC3w8mLDcs-unsplash1.jpg);
+    background-clip: border-box;
+    background-size: cover;
+    background-attachment: fixed
+}
+nav {
+    width: 50%;
+    margin-left: 32%;
+    margin-right: 50%;
+}
+nav ul {
+    list-style: none;
+    background-color: #fef778;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: fixed;
+    z-index: 100
+}
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    margin: 10px 0;
+    position: relative;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #7f7f7f;
+    padding: 23px 30px 6px;
+}
+nav ul li a:hover {
+    border-bottom: 5px solid #fba746;
+    background-color: #7f7f7f;
+    color: #fef778
+}
+nav ul li .deserts {
+    border-bottom: 5px solid #7f7f7f;
+    background-color: #fba746;
+    color: #fffde1;
+    margin: -5px
+}
+nav ul li .deserts:hover {
+    border-bottom: 5px solid #7f7f7f;
+    background-color: #fba746;
+    color: #fffde1;
+    margin: -5px
+}
+nav ul li ul {
+    position: absolute;
+    border: 2px solid #fba746;
+    border-top: 0;
+    border-radius: 0 10px 10px;
+    display: none;
+    padding: 10px;
+    top: 33px
+}
+nav ul li ul li {
+    width: 70px
+}
+nav ul li ul li a {
+    text-decoration: none;
+    color: #7f7f7f;
+    padding: 10px;
+    display: block;
+}
+nav ul li:hover ul {
+    display: block
+}
+nav ul li ul li a:hover {
+    background-color: #fba746;
+    color: #fffde1;
+    border: none;
+}
+.circle {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #fba746;
+    background-color: #fef778;
+    border-radius: 50%
+}
+.left {
+    position: relative;
+    top: 0;
+    left: 253px;
+    box-shadow: 5px 5px ;
+}
+.right {
+    position: relative;
+    top: -84px;
+    right:  217px;
+    float: right;
+    box-shadow: 5px 5px ;
+}
+.left img {
+    width: 48px;
+    height: 64px;
+    position: relative;
+    right: -15px;
+    top: 5px
+}
+.right img {
+    width: 76px;
+    height: 72px;
+    position: relative;
+    top: -1px;
+    left: 1.7px
+}
+.main {
+    margin: auto;
+    background-color: #fef778;
+    border: 5px solid #7f7f7f;
+    border-radius: 30px;
+    height: 700px;
+    width: 500px;
+    overflow: hidden;
+    margin-left: 450px;
+    z-index: 22
+}
+.main img {
+    width: 500px;
+    height: 700px;
+    position: relative;
+    z-index: 4;
+}
+.main:hover img {
+    filter: brightness(25%);
+}
+.main section {
+    margin-left: 8%;
+    margin-top: 100px;
+    color: #7f7f7f;
+    position: relative;
+    top: -670px;
+    z-index: 25;
+    transition: all 3s ease-in-out 1s;
+    left: -600px
+}
+.main:hover section {
+    top: -670px;
+    left: 0
+}
+.main section h1 
+{
+    font-family: "Haettenschweiler";
+    font-size: 50px;
+    margin-bottom: 0;
+    text-align: center;
+    margin-left: -67px
+}
+.main section p 
+{
+    font-family: "Haettenschweiler";
+    font-size: 32px;
+    margin-right: 10px;
+}
+.pharaoh {
+    width: 122px;
+    height: 238.8px;
+    position: relative;
+    top: -253px;
+    left: 844px;
+    z-index: 26;
+    animation: pharaoh 10s ease-in-out 2s 1;
+    animation-fill-mode: forwards
+}
+@keyframes pharaoh 
+{
+    25%{top: -450px; left: 840px;}
+    50%{top: -450px; left: 780px;}
+    75%{top: -450px; left: 720px;}
+    100%{top: -450px; left: 660px;}
+}
+.tomb {
+    width: 122px;
+    height: 238.8px;
+    position: relative;
+    top: -163px;
+    left: 657px;
+    z-index: 23;
+    transform: rotateZ(90deg);
+    transform-style: preserve-3d; 
+}
+/*
+.tomp {
+    left: 37.4%;
+    width: 22%;
+    top: 275%;
+    position: absolute;
+    animation: tomp 7s ease-in-out infinite
+}
+@keyframes tomp 
+{
+    0%{transform: rotateX(-5deg)}
+    20%{transform: rotateX(5deg)}
+    40%{transform: rotateX(-7.5deg)}
+    60%{transform: rotateX(7.5deg)}
+    80%{transform: rotateX(-5deg)}
+}
+article {
+    background-color: #fef778;
+    margin: auto;
+    border-radius: 30px;
+    height: 561.6px;
+    width: 374.4px;
+    z-index: 5
+}
+article section {
+    height: 561.6px;
+    width: 374.4px;
+    text-align: center;
+    position: relative;
+    top: -225%;
+    text-shadow: 1px 1px white,
+                        -1px -1px white;
+    font-weight: 500;
+    z-index: 10
+}
+article img {
+    height: 561.6px;
+    width: 374.4px;
+    border-radius: 30px;
+    display: none
+}
+article section h1 {
+    margin-bottom: 0;
+    font-family: 'Niagara Engraved';
+    font-size: 50px
+}
+article section p {
+    margin-top: 0;
+    text-align: left;
+    padding: 0 30px;
+    font-family: 'Franklin Gothic Demi';
+    font-size: 35px;
+}
+*/
+footer {
+    position: absolute;
+    bottom: -347px;
+    width: 100%;
+    background-color: #fba746;
+    margin: auto;
+    height: 50px
+}
+footer img {
+    padding: 10px 30px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 480px
+}
